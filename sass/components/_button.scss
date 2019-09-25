@@ -35,6 +35,15 @@
         }
     }
 
+    &--green {
+        background-color: $color-primary;
+        color: $color-white;
+
+        &::after {
+            background-color: $color-primary;       
+        }
+    }
+
     /* Psuedo element all us the style certain parts of the element. the ::after element the child element. */
     &::after {
         content: "";
